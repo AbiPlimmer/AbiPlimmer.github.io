@@ -34,9 +34,9 @@ img {
   display: inline-block;
   -webkit-transition: color ease-in-out 0.3s;
   transition: color ease-in-out 0.3s;
-  text-align: center;
-  font-size: 56px;
-  font-size: 3.5rem;
+  position: absolute;
+  font-size: 72px;
+  font-size: 4rem;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
