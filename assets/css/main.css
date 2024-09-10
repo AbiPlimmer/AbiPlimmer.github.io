@@ -200,6 +200,16 @@ img {
   font-weight: bold;
 }
 
+.subsection-heading {
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-size: 2rem;
+  color: #222;
+  font-weight: bold;
+}
+
 .nav-links {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
