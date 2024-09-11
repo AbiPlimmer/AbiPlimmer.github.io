@@ -517,9 +517,8 @@ a {
   .head-menu-wrap {
   display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-    grid-row-gap: 2px;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
   }
 
   #nav {
