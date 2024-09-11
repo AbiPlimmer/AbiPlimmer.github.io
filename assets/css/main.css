@@ -515,10 +515,20 @@ a {
 @media screen and (max-width: 1500px) {
 
   .head-menu-wrap {
+    position: absolute;
+  bottom: 40px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+
   display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
+
+  display: grid;
+  -ms-grid-columns: 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px;
+  grid-column-gap: 10px;
+  
+  margin: 0 auto;
   }
 
   #nav {
