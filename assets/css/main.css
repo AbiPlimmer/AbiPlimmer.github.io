@@ -515,8 +515,11 @@ a {
 @media screen and (max-width: 1500px) {
 
   .head-menu-wrap {
-    float: none;
-    width: 100%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+  }
   }
 
   #nav {
