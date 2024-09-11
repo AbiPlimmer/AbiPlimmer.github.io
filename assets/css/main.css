@@ -512,15 +512,15 @@ a {
   }
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1500px) {
   .column {
      width: 100%;
   }
 
 	
   .head-menu-wrap {
-    -ms-grid-columns: auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
     grid-column-gap: auto;
     float: none;
     width: 100%;
