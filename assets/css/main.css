@@ -520,6 +520,7 @@ a {
     -ms-grid-columns: auto;
         grid-template-columns: auto;
     grid-row-gap: 2px;
+  }
 
   #nav {
     background-attachment: unset;
