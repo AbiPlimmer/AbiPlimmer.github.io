@@ -574,17 +574,6 @@ a {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .head-menu-wrap {
-    -ms-grid-columns: auto auto auto auto auto;
-        grid-template-columns: auto auto auto auto auto;
-    grid-column-gap: auto;
-    grid-row-gap: 10px;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-}
 
 @media screen and (max-height: 525px) {
 
