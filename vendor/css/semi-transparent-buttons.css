@@ -62,7 +62,7 @@
   display: block;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 1px;
+  padding: auto;
   max-width: auto;
   min-width: auto;
   background: transparent; /* fallback color for old browsers */
