@@ -519,9 +519,9 @@ a {
 
 	
   .head-menu-wrap {
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    grid-row-columns: auto;
+    -ms-grid-columns: repeat(autofit,minmax(170px,1fr));
+        grid-template-columns: repeat(autofit,minmax(170px,1fr));
+    place-tems: end center;
     float: none;
     width: 100%;
   }
