@@ -517,13 +517,9 @@ a {
   .head-menu-wrap {
   display: -ms-grid;
     display: grid;
-    -ms-grid-columns: auto auto auto;
-        grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    grid-row-gap: 2px;
 
   #nav {
     background-attachment: unset;
