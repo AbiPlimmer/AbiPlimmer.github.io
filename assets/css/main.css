@@ -525,9 +525,9 @@ a {
 
   display: grid;
   -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+      grid-template-columns: repeat(2,minmax(0,1fr));
   grid-column-gap: 10px;
-  
+  grid-row-gap: auto;
   margin: 0 auto;
   }
   }
