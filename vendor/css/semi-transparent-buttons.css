@@ -56,3 +56,22 @@
   background: #222;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1500px) {
+  .semi-transparent-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 1px;
+  max-width: auto;
+  min-width: auto;
+  background: transparent; /* fallback color for old browsers */
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.1s ease-out;
+}
+}
+  
