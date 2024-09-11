@@ -434,7 +434,7 @@ img {
 
 #nav {
   background: url(../images/background.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 	
 }
