@@ -434,8 +434,9 @@ img {
 
 #nav {
   background: url(../images/background.png);
-  background-repeat: repeat;
   background-size: contain;
+  background-repeat: no-repeat;
+	
 }
 
 a {
