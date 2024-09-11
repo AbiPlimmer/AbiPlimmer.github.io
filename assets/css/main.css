@@ -513,15 +513,8 @@ a {
 }
 
 @media screen and (max-width: 1500px) {
-  .column {
-     width: 100%;
-  }
 
-	
   .head-menu-wrap {
-    -ms-grid-columns: repeat(autofit,minmax(170px,1fr));
-        grid-template-columns: repeat(autofit,minmax(170px,1fr));
-    place-tems: end center;
     float: none;
     width: 100%;
   }
