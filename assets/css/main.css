@@ -519,9 +519,9 @@ a {
 
 	
   .head-menu-wrap {
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
-    grid-column-gap: auto;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    grid-row-gap: auto;
     float: none;
     width: 100%;
   }
