@@ -513,7 +513,11 @@ a {
 }
 
 @media screen and (max-width: 940px) {
+  .column {
+     width: 100%;
+  }
 
+	
   .head-menu-wrap {
     -ms-grid-columns: auto auto auto auto auto;
         grid-template-columns: auto auto auto auto auto;
