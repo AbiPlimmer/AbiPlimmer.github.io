@@ -517,9 +517,11 @@ a {
   .head-menu-wrap {
     -ms-grid-columns: auto auto auto auto auto;
         grid-template-columns: auto auto auto auto auto;
-    grid-column-gap: 10px;
+    grid-column-gap: auto;
     grid-row-gap: 10px;
-    width: 80%;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   #nav {
@@ -578,8 +580,11 @@ a {
   .head-menu-wrap {
     -ms-grid-columns: auto auto auto auto auto;
         grid-template-columns: auto auto auto auto auto;
-    grid-column-gap: 10px;
+    grid-column-gap: auto;
     grid-row-gap: 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 
