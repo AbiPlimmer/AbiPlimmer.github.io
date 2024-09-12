@@ -219,7 +219,8 @@ img {
   padding: 100px;
   background-color: #fff;
   border-image: url(../images/background.png);
-  border-image-width: 100px;
+  border-image-size: cover; 
+  border-width: 100px;
   border-image-outset: 0;
   background-clip: padding-box;
 }
