@@ -519,7 +519,6 @@ a {
   .head-menu-wrap {
   position: absolute;
   bottom: 40px;
-  left: 50%;
   -webkit-transform: translate(-30%, 0);
           transform: translate(-30%, 0);	  
   display: -ms-grid;
@@ -528,8 +527,10 @@ a {
   -ms-grid-columns: 150px 1500px 150px;
       grid-template-columns: 150px 150px 150px;
   grid-column-gap: 2px;
-  
-  margin: 0 auto;
+  width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  margin: 20 auto;
   }
 
   #nav {
