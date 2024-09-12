@@ -146,7 +146,7 @@ img {
   outline: none;
 }
 
-.coll_content {
+. content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
@@ -250,11 +250,6 @@ for (i = 0; i < coll.length; i++) {
   background: url(../images/background.png);
   background-size: cover; 
   background-repeat: no-repeat;
-}
-
-.content{
-  background:white;
-  padding: 5%;
 }
 
 .paragraph-text {
