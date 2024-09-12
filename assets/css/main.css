@@ -216,7 +216,9 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
-  background: url(../images/background.png);
+  background-color: #fff
+  border: url(../images/background.png);
+  border-width: 20pt;
   background-size: cover;
   background-repeat: no-repeat;
 }
