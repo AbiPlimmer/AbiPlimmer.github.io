@@ -216,9 +216,10 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
-  background: url(../images/background.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #fff;
+  border-image: url(../images/background.png);
+  border-image-width: 100 100 100 100
+  border-image-repeat: stretch stretch
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
