@@ -221,25 +221,9 @@ img {
   background-repeat: no-repeat;
 }
 
-.section-wrapper:nth-child(odd) .section-heading {
-  color: #fff;
-}
-
-.section-wrapper:nth-child(odd) .subsection-heading {
-  color: #fff;
-}
-
-.section-wrapper:nth-child(odd) .skills-subsection {
-  color: #fff;
-}
-
-.section-wrapper:nth-child(odd) .paragraph-text {
-  color: #fff;
-}
-
 .content{
   background:white;
-  padding: 60px;
+  padding: 15px;
 }
 
 .paragraph-text {
