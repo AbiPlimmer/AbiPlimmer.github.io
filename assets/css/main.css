@@ -515,9 +515,11 @@ a {
 @media screen and (max-width: 1500px) {
 
   .head-menu-wrap {
-    position: absolute;
+  position: absolute;
   bottom: 40px;
   left: 50%;
+  -webkit-transform: translate(-10%, 0);
+          transform: translate(-10%, 0);	  
   display: -ms-grid;
 
   display: grid;
