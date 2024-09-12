@@ -517,18 +517,15 @@ a {
   position: absolute;
   bottom: 40px;
   left: 50%;
-  -webkit-transform: translate(-30%, 0);
-          transform: translate(-30%, 0);	  
+  -webkit-transform: translate(-20%, 0);
+          transform: translate(-20%, 0);	  
   display: -ms-grid;
-
   display: grid;
-  -ms-grid-columns: 150px 1500px 150px;
+  -ms-grid-columns: 150px 150px 150px;
       grid-template-columns: 150px 150px 150px;
   grid-column-gap: 2px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  margin: 20px auto;
+  justify-content: center;
+  margin: 0px auto;
   }
 
   #nav {
