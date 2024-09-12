@@ -216,13 +216,9 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
-  padding: 100px;
-  background-color: #fff;
-  border-image: url(../images/background.png);
-  border-image-size: cover; 
-  border-width: 100px;
-  border-image-outset: 0;
-  background-clip: padding-box;
+  background: url(../images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
@@ -239,6 +235,12 @@ img {
 
 .section-wrapper:nth-child(odd) .paragraph-text {
   color: #fff;
+}
+
+.white-box{
+	border: 1px;
+	padding: 10px;
+	margin: 10px;
 }
 
 .paragraph-text {
