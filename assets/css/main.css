@@ -108,9 +108,8 @@ img {
 }
 
 .head-menu-wrap {
-  position: sticky;
-  top: 0;
-  overlow: auto;
+  position: abolute;
+  bottom: 40px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
