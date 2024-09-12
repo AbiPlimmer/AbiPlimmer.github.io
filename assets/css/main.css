@@ -150,13 +150,13 @@ img {
 }
 
 .about-wrapper {
+  position: fixed
+  bottom: 40px
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
       grid-template-columns: auto auto auto auto auto auto;
   grid-column-gap: 10px;
-  position: sticky;
-  bottom: 0;
 }
 
 .full-width {
