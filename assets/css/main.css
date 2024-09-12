@@ -155,6 +155,8 @@ img {
   -ms-grid-columns: auto auto auto auto auto auto;
       grid-template-columns: auto auto auto auto auto auto;
   grid-column-gap: 10px;
+  position: sticky;
+  bottom: 0;
 }
 
 .full-width {
