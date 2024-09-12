@@ -527,6 +527,12 @@ a {
   margin: 0 auto;
   }
 
+  .nav-links {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12pt;
+  }
+
   #nav {
     background-attachment: unset;
   }
