@@ -1,4 +1,3 @@
-<script src="assets/js/main.js"></script>
 <div class="section-wrapper">
     <section class="section" id="conferences">
         <div class="full-width">
@@ -19,6 +18,22 @@
               <p class = "paragraph-text">
               The viscosity and thickness of the lithosphere alters the trajectory of downwelling material beneath the supercontinent as it assembles. Where slabs and plumes interact, the cold slabs can reduce the magnitude of an evolving plume, which may limit the contribution of plume push forces on supercontinent breakup. </p>
                 </div>
+           <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script> 
         </div>
     </section>
 </div>
