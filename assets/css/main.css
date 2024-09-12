@@ -110,6 +110,7 @@ img {
 .head-menu-wrap {
   position: sticky;
   top: 0;
+  overlow: auto;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
