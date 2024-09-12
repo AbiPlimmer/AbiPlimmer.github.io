@@ -219,8 +219,8 @@ img {
   background-color: #fff
   border-image: url(../images/background.png);
   border-image-width: 20pt;
-  background-size: cover;
-  background-repeat: no-repeat;
+  border-image-outset: 0;
+  background-size: auto;
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
