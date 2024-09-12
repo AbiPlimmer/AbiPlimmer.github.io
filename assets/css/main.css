@@ -140,10 +140,13 @@ img {
 .collapsible {
   background-color: #fff;
   cursor: pointer;
-  padding: 18px;
+  padding: 0px;
   width: 100%;
   border: none;
   outline: none;
+}
+.active, .collapsible:hover {
+  background-color: #D1BCC8;
 }
 
 . content {
