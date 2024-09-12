@@ -519,6 +519,7 @@ a {
   .head-menu-wrap {
   position: absolute;
   bottom: 40px;
+  left: 50%;
   -webkit-transform: translate(-30%, 0);
           transform: translate(-30%, 0);	  
   display: -ms-grid;
@@ -530,7 +531,7 @@ a {
   width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-  margin: 20 auto;
+  margin: 20px auto;
   }
 
   #nav {
