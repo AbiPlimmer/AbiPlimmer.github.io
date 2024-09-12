@@ -80,8 +80,8 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 1px;
-  max-width: 150px;
-  min-width: 150px;
+  max-width: 120px;
+  min-width: 120px;
   background: transparent; /* fallback color for old browsers */
   border-radius: 2px;
   color: #fff;
