@@ -13,6 +13,23 @@
   letter-spacing: 1px;
   transition: all 0.1s ease-out;
 }
+
+.opaque-button {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  max-width: 160px;
+  min-width: 120px;
+  background: url(../../assets/images/background.png);; /* fallback color for old browsers */
+  border-radius: 2px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.1s ease-out;
+}
+
 .semi-transparent-button:hover,
 .semi-transparent-button:active {
   background: #fff;
