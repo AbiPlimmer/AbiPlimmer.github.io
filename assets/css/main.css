@@ -139,21 +139,26 @@ img {
 
 .collapsible {
   background-color: #fff;
+  color: 222;
   cursor: pointer;
-  padding: 0px;
+  padding: 18px;
   width: 100%;
   border: none;
+  text-align: left;
   outline: none;
-}
-.active, .collapsible:hover {
-  background-color: #D1BCC8;
+  font-size: 30px;
 }
 
-. content {
+.content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #fff;
+}
+
+.white-box {
+	background-color: white;
+	padding: 16px;
 }
 
 .technical-skills {
