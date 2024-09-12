@@ -524,8 +524,8 @@ a {
   display: -ms-grid;
 
   display: grid;
-  -ms-grid-columns: 180px 180px 180px;
-      grid-template-columns: 180px 180px 180px;
+  -ms-grid-columns: 120px 120px 120px;
+      grid-template-columns: 120px 120px 120px;
   grid-column-gap: 2px;
   
   margin: 0 auto;
