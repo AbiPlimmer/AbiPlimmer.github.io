@@ -150,6 +150,8 @@ img {
 }
 
 .about-wrapper {
+  position: absolute;
+  bottom: 40px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
