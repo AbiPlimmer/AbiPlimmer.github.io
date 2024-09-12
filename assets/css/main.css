@@ -221,7 +221,7 @@ img {
   border-image: url(../images/background.png);
   border-image-width: 100px;
   border-image-outset: 0;
-  background-clip: padding;
+  background-clip: padding-box;
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
