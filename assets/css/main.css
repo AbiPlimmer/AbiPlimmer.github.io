@@ -216,11 +216,12 @@ img {
 }
 
 .section-wrapper:nth-child(odd) {
-  background-color: #fff
+  padding: 100px;
+  background-color: #fff;
   border-image: url(../images/background.png);
-  border-image-width: 20pt;
+  border-image-width: 100px;
   border-image-outset: 0;
-  background-size: 80%;
+  background-clip: padding;
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
