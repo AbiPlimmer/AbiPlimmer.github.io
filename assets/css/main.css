@@ -521,7 +521,9 @@ a {
   bottom: 40px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);	  
+          transform: translate(-50%, 0);
+  -webkit-transform: scale(0.8, 0.8);
+          transform: scale(0.8, 0.8);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 150px 1500px 150px;
