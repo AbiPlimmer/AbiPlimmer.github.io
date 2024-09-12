@@ -237,11 +237,9 @@ img {
   color: #fff;
 }
 
-.white-box{
-	border: 1px;
-	padding: 10px;
-	margin: 10px;
-	color: #222;
+.content{
+  background:white;
+  padding: 60px;
 }
 
 .paragraph-text {
