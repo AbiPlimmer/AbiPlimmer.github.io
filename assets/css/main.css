@@ -527,9 +527,9 @@ a {
   -ms-grid-columns: 150px 1500px 150px;
       grid-template-columns: 150px 150px 150px;
   grid-column-gap: 2px;
-  width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   margin: 20px auto;
   }
 
