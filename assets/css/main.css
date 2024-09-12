@@ -517,12 +517,12 @@ a {
   position: absolute;
   bottom: 40px;
   left: 50%;
-  -webkit-transform: translate(-20%, 0);
-          transform: translate(-20%, 0);	  
+  -webkit-transform: translate(0%, 0);
+          transform: translate(0%, 0);	  
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 150px 150px 150px;
-      grid-template-columns: 150px 150px 150px;
+  -ms-grid-columns: 120px 120px 120px;
+      grid-template-columns: 120px 120px 120px;
   grid-column-gap: 2px;
   justify-content: center;
   margin: 0px auto;
