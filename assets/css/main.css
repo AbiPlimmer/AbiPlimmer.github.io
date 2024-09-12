@@ -205,7 +205,7 @@ img {
   margin-bottom: 30px;
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-size: 30px;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #222;
   font-weight: bold;
 }
@@ -222,6 +222,10 @@ img {
 }
 
 .section-wrapper:nth-child(odd) .section-heading {
+  color: #fff;
+}
+
+.section-wrapper:nth-child(odd) .subsection-heading {
   color: #fff;
 }
 
