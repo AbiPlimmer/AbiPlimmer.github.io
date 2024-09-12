@@ -137,52 +137,39 @@ img {
   grid-gap: 20px;
 }
 
-.dropbtn{
-	background-color: #fff;
-	color: #222;
-	padding: 16px;
-	font-size: 1.8rem;
-	border: none;
-	cursor: pointer;
-	max-width: 100%;
+.collapsible {
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
 }
 
-.dropdown{
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content {
+.coll_content {
+  padding: 0 18px;
   display: none;
-  position: absolute;
-  background-colour: #fff;
-  min-width: 100%;
-}
-	
-.dropdown:hover .dropdown-content {
-  display: block;
+  overflow: hidden;
+  background-color: #fff;
 }
 
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
-// Close the dropdown menu if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
     }
-  }
+  });
 }
-	
+
 .technical-skills {
   width: 90%;
   margin: 0 auto;
