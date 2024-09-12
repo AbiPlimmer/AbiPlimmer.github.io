@@ -163,8 +163,8 @@ img {
 }
 
 .section {
-  max-width: auto;
-  margin: 60px auto;
+  max-width: 80%;
+  margin: 30px auto;
   padding: 20px 0;
   min-height: 100vh;
 
