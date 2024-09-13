@@ -12,4 +12,3 @@ var coll = document.getElementsByClassName("collapsible");
       }
     });
   }
-}
