@@ -111,6 +111,8 @@ position: relative;
 .head-menu-wrap {
   position: fixed;
   top: 30px;
+	  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
