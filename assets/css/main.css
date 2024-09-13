@@ -109,7 +109,7 @@ position: relative;
 }
 
 .head-menu-wrap {
-  position: sticky;
+  position: absolute;
   top: 10px;
   left: 50%; 
   -webkit-transform: translate(-50%, 0);
@@ -119,7 +119,6 @@ position: relative;
   -ms-grid-columns: auto auto auto auto auto auto;
       grid-template-columns: auto auto auto auto auto auto;
   grid-column-gap: 10px;
-  align-content:center;
   margin: 0 auto;
 }
 
