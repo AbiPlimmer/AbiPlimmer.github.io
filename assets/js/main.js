@@ -112,8 +112,9 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+}
 
 function blog_link_click(url) {
     window.location = url;
 }
-}
+
