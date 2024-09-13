@@ -109,8 +109,8 @@ position: relative;
 }
 
 .head-menu-wrap {
-  position: sticky;
-  top: 0x;
+  position: absolute;
+  top: 30x;
   padding: 10px 16px
   left: 50%; 
   -webkit-transform: translate(-50%, 0);
