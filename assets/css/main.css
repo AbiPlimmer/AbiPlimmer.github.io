@@ -111,9 +111,6 @@ position: relative;
 .head-menu-wrap {
   position: fixed;
   top: 30px;
-  left: 40%
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
@@ -265,6 +262,7 @@ position: relative;
   background-repeat: no-repeat;
 }
 
+.has-scrolled{
 
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
