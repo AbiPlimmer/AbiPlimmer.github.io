@@ -111,6 +111,9 @@ position: relative;
 .head-menu-wrap {
   position: fixed;
   top: 30px;
+  left: 50%;
+	-webkit-transform: translate(-50%, 0);
+	  transform: translate(-50%,0)
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
@@ -120,7 +123,18 @@ position: relative;
   z-index: 9999;
 }
 
-
+.nav-cont {
+ position: fixed;
+ top: 0;
+ left: 0;
+ z-index: 9998;
+ width: 100%;
+  background: url(../images/background.png);
+  background-size: cover; 
+  background-repeat: no-repeat;
+ 
+}
+ 
 
 .justify-text {
   text-align: justify;
