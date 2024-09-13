@@ -109,8 +109,8 @@ position: relative;
 }
 
 .head-menu-wrap {
-  position: sticky;
-  top: 0;
+  position: absolute;
+  top: 30px;
   left: 50%; 
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -121,6 +121,8 @@ position: relative;
   grid-column-gap: 10px;
   margin: 0 auto;
 }
+
+
 
 .justify-text {
   text-align: justify;
