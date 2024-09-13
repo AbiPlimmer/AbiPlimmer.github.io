@@ -117,6 +117,7 @@ position: relative;
       grid-template-columns: auto auto auto auto auto auto;
   grid-column-gap: 10px;
   margin: 0 auto;
+  z-index: 9999;
 }
 
 
