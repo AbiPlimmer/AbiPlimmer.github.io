@@ -153,6 +153,18 @@ img {
   background-color: #fff;
 }
 
+.collapsible:after {
+  content: '\002B';
+  color: #222;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
 .content {
   padding: 0 10px;
   display: none;
