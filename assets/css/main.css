@@ -109,9 +109,8 @@ position: relative;
 }
 
 .head-menu-wrap {
-  overflow: auto;
-  position: sticky;
-  top: 0;
+  position: absolute;
+  top: 30px;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   display: -ms-grid;
