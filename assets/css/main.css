@@ -110,7 +110,7 @@ position: relative;
 
 .head-menu-wrap {
   position: absolute;
-  top: 10px;
+  top: 30px;
   left: 50%; 
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
