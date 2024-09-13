@@ -1,5 +1,6 @@
 c<div class="section-wrapper">
     <section class="section" id="conferences">
+	    <script src = "../assets/js/collapse.js" type="text/javascript"></script>
         <div class="full-width">
           <div class = "white-box">
            <div class="section-heading">Conferences & Presentations</div>
@@ -241,20 +242,7 @@ In our models, the trajectory of the slab affects the evolution of a sub-superco
         </div> 
 		
             <script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
+collapse();
 </script>
             
         </div>
