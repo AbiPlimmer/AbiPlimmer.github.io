@@ -1,6 +1,5 @@
 
 <section class="head" id="nav">
-        <div class="head-inner-wrap">
         <div class="head-menu-wrap" id="myHeader">
             <a class="semi-transparent-button with-border nav-links" href="#about">ABOUT</a>
             <a class="semi-transparent-button with-border nav-links" href="#research">RESEARCH</a>
@@ -14,19 +13,4 @@
         </div>
         <div class="head-name head-title animated" id="head-name">{{ site.title }}</div>
         <div class="head-punchline animated">{{ site.description }}</div>
-        </div>
-    <script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
 </section>
