@@ -2,6 +2,7 @@
 $(document).ready(function() {
     general_utils();
     blog_posts();
+    collapse();
 })
 
 
@@ -96,7 +97,8 @@ function blog_posts() {
 
 }
 
-var coll = document.getElementsByClassName("collapsible");
+function collapse() {
+	var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
@@ -113,4 +115,5 @@ for (i = 0; i < coll.length; i++) {
 
 function blog_link_click(url) {
     window.location = url;
+}
 }
