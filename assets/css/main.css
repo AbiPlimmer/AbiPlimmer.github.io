@@ -571,9 +571,7 @@ a {
   justify-content: center;
   margin: 0 auto;
   }
-
-
-
+	
   .nav-links {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -624,6 +622,16 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  color: #222;
+  font-weight: bold;
+}
+	
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
