@@ -700,6 +700,7 @@ font-size: 11pt;
 width:250px;
 border:20px solid white; 
 border-left: 50px solid white;"
+-webkit-transform:scale(0.5);-moz-transform-scale(0.5)
 }
 	
 .collapsible {
