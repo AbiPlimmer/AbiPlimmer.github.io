@@ -177,6 +177,13 @@ position: relative;
 	align-items:center;
 }
 
+#frame_ls {
+ height:700px;
+width:500px;
+border:20px solid white; 
+border-left: 50px solid white;"
+}
+
 .collapsible:after {
   content: '\002B';
   color: #222;
@@ -689,8 +696,8 @@ font-size: 11pt;
 }
 
 #frame_ls {
- height:700px;
-width:500px;
+ height:350px;
+width:250px;
 border:20px solid white; 
 border-left: 50px solid white;"
 }
