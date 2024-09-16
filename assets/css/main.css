@@ -657,7 +657,11 @@ a {
 	background-color: white;
 	padding: 8px;
 }
-	
+
+.columns {
+column-count: 2;
+align-items:center;
+}
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
