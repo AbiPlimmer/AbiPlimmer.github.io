@@ -561,7 +561,7 @@ a {
 
   .head-menu-wrap {
   position: absolute;
-  top: 2%;	  
+  top: 4%;	  
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
