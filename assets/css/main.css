@@ -135,7 +135,10 @@ position: relative;
   background-repeat: no-repeat;
  
 }
- 
+
+.collapse_name {
+	font-size:15pt;
+}
 
 .justify-text {
   text-align: justify;
@@ -694,6 +697,11 @@ align-items:center;
   outline: none;
   font-size: 18px;
 }
+
+.collapse_name {
+	font-size:16px;
+}
+	
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
