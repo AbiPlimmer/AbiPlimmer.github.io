@@ -79,9 +79,9 @@
   display: block;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 1px;
-  max-width: 100px;
-  min-width: 100px;
+  padding: 2px;
+  max-width: 110px;
+  min-width: 110px;
   background: transparent; /* fallback color for old browsers */
   border-radius: 2px;
   color: #fff;
