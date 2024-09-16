@@ -510,9 +510,6 @@ a {
   margin-top: 80px;
 }
 
-.height-ls {
-	700
-}
 
 .head-inner-wrap {
   
@@ -688,7 +685,7 @@ a {
 column-count: 2;
 align-items:center;
 padding: 3px 10px;
-font-size: 14pt;
+font-size: 11pt;
 }
 
 .collapsible {
