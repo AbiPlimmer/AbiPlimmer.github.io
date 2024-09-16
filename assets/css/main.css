@@ -564,18 +564,20 @@ a {
   bottom: 40px;	  
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   justify-content: center;
   margin: 0 auto;
   }
 
+
+
   .nav-links {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 12pt;
+  font-size: 8pt;
   }
 
   #nav {
