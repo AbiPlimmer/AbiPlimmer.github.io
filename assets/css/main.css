@@ -565,7 +565,7 @@ a {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto auto auto auto;
-      grid-template-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   justify-content: center;
