@@ -683,7 +683,7 @@ a {
 .columns {
 column-count: 2;
 align-items:center;
-	column-gap: 8px;
+	column-gap: 15px;
 }
 
 .collapsible {
