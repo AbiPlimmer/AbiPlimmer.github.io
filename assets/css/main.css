@@ -632,6 +632,16 @@ a {
   font-weight: bold;
 }
 
+.subsection-heading {
+  text-align: left;
+  margin-bottom: 30px;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #222;
+  font-weight: bold;
+}
+
+
   .paragraph-text {
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
