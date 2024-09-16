@@ -681,6 +681,18 @@ a {
 column-count: 2;
 align-items:center;
 }
+
+.collapsible {
+  background-color: #fff;
+  color: #222;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
 }
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
