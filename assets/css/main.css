@@ -688,6 +688,13 @@ padding: 3px 10px;
 font-size: 11pt;
 }
 
+#frame_ls {
+ height:700px;
+width:500px;
+border:20px solid white; 
+border-left: 50px solid white;"
+}
+	
 .collapsible {
   background-color: #fff;
   color: #222;
