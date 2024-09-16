@@ -557,7 +557,7 @@ a {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
 
   .head-menu-wrap {
   position: absolute;
@@ -575,7 +575,7 @@ a {
   .nav-links {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 10pt;
+  font-size: 9pt;
   }
 
   #nav {
