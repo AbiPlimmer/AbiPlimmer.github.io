@@ -169,6 +169,10 @@ position: relative;
   background-color: #F2D2BD;
 }
 
+.columns {
+	column-count: 3;
+	align-items:center;
+}
 
 .collapsible:after {
   content: '\002B';
@@ -647,6 +651,11 @@ a {
   font-size: 16px;
   margin: 30px auto;
   color: #404040;
+}
+
+.white-box {
+	background-color: white;
+	padding: 8px;
 }
 	
 }
