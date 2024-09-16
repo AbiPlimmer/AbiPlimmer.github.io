@@ -684,6 +684,7 @@ a {
 column-count: 2;
 align-items:center;
 padding: 3px 10px;
+font-size: 14pt;
 }
 
 .collapsible {
