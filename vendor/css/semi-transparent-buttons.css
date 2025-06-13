@@ -2,15 +2,16 @@
   display: block;
   box-sizing: border-box;
   margin: 0 auto;
-  padding: 8px;
-  max-width: 160px;
-  min-width: 60px;
-  background: transparent; /* fallback color for old browsers */
-  border-radius: 2px;
+  padding: 1rem 1rem ;
+  max-width: 20rem;
+  min-width: 6rem;
+  background: rgba(255, 255, 255, 0.3); /* fallback color for old browsers */
+  border-radius: 0.4rem;
   color: #fff;
   text-align: center;
   text-decoration: none;
   letter-spacing: 1px;
+  font-size: 1.2rem;
   transition: all 0.1s ease-out;
 }
 
