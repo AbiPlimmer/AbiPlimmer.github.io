@@ -1,19 +1,25 @@
 .semi-transparent-button {
-  display: block;
+  display: flex;                     /* enable flex for inner content */
+  align-items: center;              /* vertical centering */
+  justify-content: center;          /* horizontal centering */
   box-sizing: border-box;
-  margin: 0 auto;
-  padding: 1rem 1rem ;
-  max-width: 20rem;
-  min-width: 6rem;
-  background: rgba(255, 255, 255, 0.3); /* fallback color for old browsers */
+  padding: clamp(0.4rem, 1vw, 0.8rem) clamp(0.6rem, 2vw, 1rem);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 0.4rem;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  letter-spacing: 1px;
-  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  font-size: clamp(0.7rem, 2vw, 1.1rem);  /* shrinks better */
   transition: all 0.1s ease-out;
+  white-space: nowrap;
+  min-width: clamp(4rem, 10vw, 8rem);     /* allow different widths */
+  max-width: 100%;
+  flex-shrink: 1;                         /* shrink if space is tight */
+  flex-grow: 0;                           /* don’t stretch all to equal width */
 }
+
+
 
 .opaque-button {
   display: block;
@@ -73,22 +79,4 @@
   color: #fff;
   background: #222;
   cursor: pointer;
-}
-
-@media screen and (max-width: 1200px) {
-.semi-transparent-button {
-  display: block;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 2px;
-  max-width: 110px;
-  min-width: 110px;
-  background: transparent; /* fallback color for old browsers */
-  border-radius: 2px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 1px;
-  transition: all 0.1s ease-out;
-}
 }
