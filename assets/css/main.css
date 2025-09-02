@@ -76,35 +76,38 @@ position: relative;
 }
 
 .head-menu-wrap {
-  position: fixed;
-  top: 3%;
-  left: 50%;
-  transform: translateX(-50%);
+/*  position: fixed;*/
+/*  top: 2%;*/
+/*  left: 50%;*/
+/*  transform: translateX(-50%);*/
   display: flex;
-  justify-content: space-between; /* or space-evenly for equal gaps */
+  justify-content: space-between; /* or space-evenly if you want equal spacing */
   align-items: center;
   flex-wrap: nowrap;
-  width: 50vw;
-  max-width: 95vw;
   gap: 0.5rem;
   margin: 0 auto;
+  padding: 0.5rem 1rem;
+
+  width: 80%;          /* Default fluid width */
+  max-width: 1200px;   /* Cap for large screens */
   z-index: 9999;
 }
 
 .nav-cont {
- position: fixed;
- display: flex;
-   justify-content: center;    /* centers .head-menu-wrap */
-   align-items: center;
- top: 0;
- left: 0;
- z-index: 9998;
- width: 100%;
- height: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 4rem; /* Let content decide height instead of fixed % */
+  display: flex;
+  justify-content: center; /* center all buttons horizontally */
+  align-items: center;
+  padding: 0.5rem 1rem;
+
   background: url(../images/background.png);
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
- 
 }
 
 .collapse_name {
@@ -382,8 +385,15 @@ a {
   display: none;
 }
 
+@media (max-width: 1200px) {
+  .head-menu-wrap {
+    width: 90%;
+    max-width: none; /* allow more breathing room */
+  }
+}
+
 /* On mobile: hide text, show icons */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 
     .head-menu-wrap a {
       font-size: 0; /* hide text */

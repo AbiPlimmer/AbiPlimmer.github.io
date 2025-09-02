@@ -1,22 +1,28 @@
 .semi-transparent-button {
-  display: flex;                     /* enable flex for inner content */
-  align-items: center;              /* vertical centering */
-  justify-content: center;          /* horizontal centering */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
-  padding: clamp(0.4rem, 1vw, 0.8rem) clamp(0.6rem, 2vw, 1rem);
+
+  /* Consistent spacing */
+  padding: calc(0.6em) calc(1.2em);  /* em = relative to font size */
+  margin: 0;/* fixed ratio padding so text size doesn’t distort button thickness */
+
+  flex: 0 1 auto;       /* don’t force equal growth */
+
+  /* Style */
   background: rgba(255, 255, 255, 0.3);
   border-radius: 0.4rem;
   color: #fff;
   text-align: center;
   text-decoration: none;
   letter-spacing: 0.5px;
-  font-size: clamp(0.7rem, 2vw, 1.1rem);  /* shrinks better */
-  transition: all 0.1s ease-out;
+
+  /* Responsive font */
+  font-size: clamp(0.8rem, 1.8vw, 1rem);
+
+  transition: all 0.15s ease-out;
   white-space: nowrap;
-  min-width: clamp(4rem, 10vw, 8rem);     /* allow different widths */
-  max-width: 100%;
-  flex-shrink: 1;                         /* shrink if space is tight */
-  flex-grow: 0;                           /* don’t stretch all to equal width */
 }
 
 
